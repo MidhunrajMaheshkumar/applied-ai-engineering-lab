@@ -1,0 +1,28 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Virtual Environments (CRITICAL)
+.venv/
+venv/
+env/
+ENV/
+
+# Environment Variables & Secrets
+.env
+*.env
+!*.env.example
+
+# Local databases & logs
+*.sqlite3
+postgres_data/
+*.log
+
+# OS & Editor clutter
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
